@@ -24,7 +24,7 @@ module org.apache.datasketches.panama {
   requires java.base;
   requires jdk.incubator.foreign;
   requires jdk.unsupported;
-  requires testng;
+  requires org.testng;
   exports org.apache.datasketches.panama;
 
 }
